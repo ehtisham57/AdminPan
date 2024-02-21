@@ -1,0 +1,61 @@
+.LoginDivmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #282823;
+
+}
+
+.LoginDiv {
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    border: 1px solid #282823;
+    border-radius: 20px;
+    min-width: 600px;
+}
+
+.LoginDiv>form {
+    text-align: center;
+    width: 100%;
+}
+
+.LoginDiv>h1 {
+    font-family: Ubuntu;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+input {
+    width: 100% !important;
+  }
+.loginInput {
+    width: max-content;
+    padding: 5px 20px;
+    border: 1px solid #282823;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.LoginButton {
+    width: 100%;
+    background-color: #EF401F;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 600px) {
+    .LoginDiv {
+        align-items: center;
+        padding: 20px;
+        min-width: 300px;
+    }
+}
